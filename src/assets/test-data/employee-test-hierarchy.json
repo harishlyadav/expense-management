@@ -1,0 +1,38 @@
+{
+    "code":"mmitchell4",
+    "name": "Mitchell",
+    "role": {
+        "code": "M",
+        "name": "Manager",
+        "allocation": 400
+    },
+    "employee": [{
+        "code":"mjohnson8",
+        "name": "Johnson",
+        "role": {
+            "code": "M",
+            "name": "Manager",
+            "allocation": 400
+        },
+        "employee": [{
+            "code":"dThomas9",
+            "name": "Thomas",
+            "role": {
+                "code": "D",
+                "name": "Developer",
+                "allocation": 1000
+            },
+            "employee": []
+        },
+        {
+            "code":"qlopez10",
+            "name": "Lopez",
+            "role": {
+                "code": "Q",
+                "name": "QA Tester",
+                "allocation": 500
+            },
+            "employee": []
+        }]
+    }]
+}

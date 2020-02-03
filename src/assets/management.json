@@ -1,0 +1,143 @@
+[{
+    "code": "dsales1",
+    "name": "Sales",
+    "employee":{
+        "code":"mkarl2",
+        "name": "Karl",
+        "role": {
+            "code": "M",
+            "name": "Manager",
+            "allocation": 400
+		},
+        "employee": [{
+            "code":"mjohan3",
+            "name": "Johan",
+            "role": {
+                "code": "M",
+                "name": "Manager",
+                "allocation": 400
+            },
+            "employee": [{
+                "code":"danders6",
+                "name": "Anders",
+                "role": {
+                    "code": "D",
+                    "name": "Developer",
+                    "allocation": 1000
+                },
+                "employee": []
+            },
+            {
+                "code":"qper7",
+                "name": "Per",
+                "role": {
+                    "code": "Q",
+                    "name": "QA Tester",
+                    "allocation": 500
+                },
+                "employee": []
+            }]
+        },
+        {
+            "code":"mlars4",
+            "name": "Lars",
+            "role": {
+                "code": "M",
+                "name": "Manager",
+                "allocation": 400
+            },
+            "employee": [{
+                "code":"mmikael8",
+                "name": "Mikael",
+                "role": {
+                    "code": "M",
+                    "name": "Manager",
+                    "allocation": 400
+                },
+                "employee": [{
+                    "code":"dlennart9",
+                    "name": "Lennart",
+                    "role": {
+                        "code": "D",
+                        "name": "Developer",
+                        "allocation": 1000
+                    },
+                    "employee": []
+                },
+                {
+                    "code":"qfredrik10",
+                    "name": "Fredrik",
+                    "role": {
+                        "code": "Q",
+                        "name": "QA Tester",
+                        "allocation": 500
+                    },
+                    "employee": []
+                }]
+            }]
+        },
+        {
+            "code":"merik5",
+            "name": "Erik",
+            "role": {
+                "code": "M",
+                "name": "Manager",
+                "allocation": 400
+            },
+            "employee": [{
+                "code":"dthomas11",
+                "name": "Thomas",
+                "role": {
+                    "code": "D",
+                    "name": "Developer",
+                    "allocation": 1000
+                },
+                "employee": []
+            },
+            {
+                "code":"qgustav12",
+                "name": "Gustav",
+                "role": {
+                    "code": "Q",
+                    "name": "QA Tester",
+                    "allocation": 500
+                },
+                "employee": []
+            },
+            {
+                "code":"mchrister13",
+                "name": "Christer",
+                "role": {
+                    "code": "M",
+                    "name": "Manager",
+                    "allocation": 400
+                },
+                "employee": [{
+                    "code":"dandreas14",
+                    "name": "Andreas",
+                    "role": {
+                        "code": "D",
+                        "name": "Developer",
+                        "allocation": 1000
+                    },
+                    "employee": []
+                },
+                {
+                    "code":"qmagnus15",
+                    "name": "Magnus",
+                    "role": {
+                        "code": "Q",
+                        "name": "QA Tester",
+                        "allocation": 500
+                    },
+                    "employee": []
+                }]
+            }]
+        }]
+    }
+},
+{
+    "code": "daccount16",
+    "name": "Account",
+    "employee": { }
+}]

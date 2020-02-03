@@ -1,0 +1,26 @@
+<ng-container *ngTemplateOutlet="treeViewList; 
+                                context:{$implicit:employee}">
+                                
+</ng-container>
+<ng-template #treeViewList let-list>
+  <ul>
+    <li *ngFor="let item of list;let i=index">
+      <div *ngIf="item != undefined">
+        <div class="card-container">
+          <div class="card card-small">
+            {{item.name}} - {{item.role.name}} - {{item.role.allocation | currency}}
+          </div>
+        </div>
+        <ng-container *ngTemplateOutlet="treeViewList;
+                        context:{$implicit: item.employee}">
+        </ng-container>
+      </div>
+    </li>
+  </ul>
+</ng-template>
+<br>
+<div *ngIf="expense > 0" class="card-container">
+  <div class="card card-small">
+    <span>Total Expense = {{expense | currency}}</span>
+  </div>
+</div>

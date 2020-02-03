@@ -1,0 +1,21 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  border-radius: 4px;
+  border: 1px solid #eee;
+  background-color: #fafafa;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+  line-height: 24px;
+}
+
+.card.card-small {
+  height: 0px;
+}

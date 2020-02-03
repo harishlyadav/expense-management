@@ -1,0 +1,138 @@
+[{
+    "code": "daccount1",
+    "name": "Account",
+    "employee":{
+        "code":"msmith2",
+        "name": "Smith",
+        "role": {
+            "code": "M",
+            "name": "Manager",
+            "allocation": 400
+		},
+        "employee": [{
+            "code":"manderson3",
+            "name": "Anderson",
+            "role": {
+                "code": "M",
+                "name": "Manager",
+                "allocation": 400
+            },
+            "employee": [{
+                "code":"dclark6",
+                "name": "Clark",
+                "role": {
+                    "code": "D",
+                    "name": "Developer",
+                    "allocation": 1000
+                },
+                "employee": []
+            },
+            {
+                "code":"qwright7",
+                "name": "Wright",
+                "role": {
+                    "code": "Q",
+                    "name": "QA Tester",
+                    "allocation": 500
+                },
+                "employee": []
+            }]
+        },
+        {
+            "code":"mmitchell4",
+            "name": "Mitchell",
+            "role": {
+                "code": "M",
+                "name": "Manager",
+                "allocation": 400
+            },
+            "employee": [{
+                "code":"mjohnson8",
+                "name": "Johnson",
+                "role": {
+                    "code": "M",
+                    "name": "Manager",
+                    "allocation": 400
+                },
+                "employee": [{
+                    "code":"dThomas9",
+                    "name": "Thomas",
+                    "role": {
+                        "code": "D",
+                        "name": "Developer",
+                        "allocation": 1000
+                    },
+                    "employee": []
+                },
+                {
+                    "code":"qlopez10",
+                    "name": "Lopez",
+                    "role": {
+                        "code": "Q",
+                        "name": "QA Tester",
+                        "allocation": 500
+                    },
+                    "employee": []
+                }]
+            }]
+        },
+        {
+            "code":"mlewis5",
+            "name": "Lewis",
+            "role": {
+                "code": "M",
+                "name": "Manager",
+                "allocation": 400
+            },
+            "employee": [{
+                "code":"dscott11",
+                "name": "Scott",
+                "role": {
+                    "code": "D",
+                    "name": "Developer",
+                    "allocation": 1000
+                },
+                "employee": []
+            },
+            {
+                "code":"qbrown12",
+                "name": "Brown",
+                "role": {
+                    "code": "Q",
+                    "name": "QA Tester",
+                    "allocation": 500
+                },
+                "employee": []
+            },
+            {
+                "code":"mdavis13",
+                "name": "Davis",
+                "role": {
+                    "code": "M",
+                    "name": "Manager",
+                    "allocation": 400
+                },
+                "employee": [{
+                    "code":"dmartin14",
+                    "name": "Martin",
+                    "role": {
+                        "code": "D",
+                        "name": "Developer",
+                        "allocation": 1000
+                    },
+                    "employee": []
+                },
+                {
+                    "code":"qadams15",
+                    "name": "Adams",
+                    "role": {
+                        "code": "Q",
+                        "name": "QA Tester",
+                        "allocation": 500
+                    },
+                    "employee": []
+                }]
+            }]
+        }]
+    }
+}]
