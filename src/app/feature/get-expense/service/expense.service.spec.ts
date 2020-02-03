@@ -64,7 +64,7 @@ describe('ExpenseService', () => {
 
   it('should return error message for empty/invalid department code', async(() => {
     const actualParam = new Param();
-    const expectedMessage = "Cannot read property 'employee' of undefined";
+    const expectedMessage = 'Cannot read property \'employee\' of undefined';
     service.getEmployeeData(actualParam.departmentCode, actualParam.employeeCode).subscribe(
       () => {},
       errorData => {
