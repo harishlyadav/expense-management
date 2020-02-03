@@ -4,10 +4,11 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod",
-    "test": "ng test",
+    "build": "ng build",
+    "install-puppeteer": "cd node_modules/puppeteer && npm run install",
+    "test": "npm run install-puppeteer && ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "npm run install-puppeteer && ng e2e"
   },
   "private": true,
   "dependencies": {
@@ -35,15 +36,18 @@
     "codelyzer": "^5.0.0",
     "husky": "^4.2.1",
     "jasmine-core": "~3.4.0",
+    "jasmine-reporters": "^2.3.2",
     "jasmine-spec-reporter": "~4.2.1",
     "karma": "~4.1.0",
     "karma-chrome-launcher": "~2.2.0",
     "karma-coverage-istanbul-reporter": "~2.0.1",
     "karma-jasmine": "~2.0.1",
     "karma-jasmine-html-reporter": "^1.4.0",
+    "karma-junit-reporter": "^2.0.1",
     "npm-run-all": "^4.1.5",
     "pretty-quick": "^2.0.1",
     "protractor": "~5.4.0",
+    "puppeteer": "^2.1.0",
     "ts-node": "~7.0.0",
     "tslint": "~5.15.0",
     "typescript": "~3.5.3"
