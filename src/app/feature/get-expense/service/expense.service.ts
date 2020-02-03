@@ -28,7 +28,7 @@ export class ExpenseService {
     return this.httpClient.get<Department[]>(this.DATA_URL).pipe(
       map(response => {
         const department = response.find(data => data.code === departmentCode);
-        if (employeeCode != '') {
+        if (employeeCode !== '') {
           return this.searchEmployee(department.employee, employeeCode);
         }
         return department.employee;
