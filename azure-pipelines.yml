@@ -11,16 +11,16 @@ steps:
   displayName: 'npm install'
   inputs:
     command: install
-    workingDir: src
+    workingDir: src/expense-management
 
 - task: Npm@1
   displayName: 'Build Angular'
   inputs:
     command: custom
     customCommand: run build -- --prod
-    workingDir: src
+    workingDir: src/expense-management
 
 - task: PublishPipelineArtifact@0
   inputs:
     artifactName: 'angular'
-    targetPath: 'src'
+    targetPath: 'src/expense-management/dist'
